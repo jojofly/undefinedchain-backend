@@ -2,7 +2,7 @@
 金融供应链平台后端
 
 ## 简介
-本项目基于Spring Boot & MyBatis
+本项目基于Spring Boot & MyBatis & jwt 
 
 ## 开发建议
 - Model内成员变量建议与表字段数量对应，如需扩展成员变量（比如连表查询）建议创建DTO，否则需在扩展的成员变量上加```@Transient```注解，详情见[通用Mapper插件文档说明](https://mapperhelper.github.io/docs/2.use/)
